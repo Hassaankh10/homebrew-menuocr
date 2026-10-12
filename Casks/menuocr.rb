@@ -1,6 +1,6 @@
 cask "menuocr" do
-  version "1.3.0"
-  sha256 "a34d9d81496e1c1db592e001ae8f40d781cc2a281eca93bc04a2d8441c6aa53b"
+  version "1.3.1"
+  sha256 "ca24a23c9079941ad813cf96ed87dccef2232b7481f73173b8e440bb73f8275b"
 
   url "https://github.com/Hassaankh10/MenuOCR/releases/download/v#{version}/MenuOCR-#{version}-macOS-arm64.dmg"
   name "MenuOCR"
