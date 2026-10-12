@@ -1,8 +1,8 @@
 cask "menuocr" do
-  version "1.2.2"
-  sha256 "9a484e8609d377ba05cdc31d432b11dcdb21c283a83493ff984dc6ab23dfd431"
+  version "1.3.0"
+  sha256 "a34d9d81496e1c1db592e001ae8f40d781cc2a281eca93bc04a2d8441c6aa53b"
 
-  url "https://github.com/Hassaankh10/MenuOCR/releases/download/v#{version}/MenuOCR-#{version}-macOS-arm64.zip"
+  url "https://github.com/Hassaankh10/MenuOCR/releases/download/v#{version}/MenuOCR-#{version}-macOS-arm64.dmg"
   name "MenuOCR"
   desc "Copy text from screenshots with local OCR"
   homepage "https://github.com/Hassaankh10/MenuOCR"
@@ -14,7 +14,7 @@ cask "menuocr" do
   app "MenuOCR.app"
 
   caveats <<~EOS
-    Enable Screen Recording for MenuOCR in System Settings, then reopen the app.
+    Open MenuOCR and follow the Screen Recording setup panel.
     This build is not notarized. If macOS blocks it, use Open Anyway in Privacy & Security.
   EOS
 end
